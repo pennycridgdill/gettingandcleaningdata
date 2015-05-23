@@ -35,6 +35,7 @@ My run_analysis.r script works using the following basic steps:
 Please note that the data will not be easily readable in text form in the mytidytidydata.txt file, as you actually need to read that data back into R in order to see that it meets the tidy data principles (unless you know what you are looking for in raw text form). If you want to ensure that my data does in fact meet the tidy data principles, you can download the file, and then read that into R and view it using:
 
 studentdata <- read.table("pathtofile", header=TRUE)
+
 View(studentdata)
 
 
